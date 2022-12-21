@@ -30,6 +30,10 @@ public class App {
 
     public static void main(String[] args) {
         // add here how to make GUI visible
+        JFrame frame = new JFrame("GUI");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setSize(400,300);
+        frame.setVisible(true);
     }
 
     static void giveReward(int n) {
